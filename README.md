@@ -1,5 +1,7 @@
 # springboot-start-shell
 用来启动 停止 springboot应用的脚步
+加入springboot启动参数，用来指定运行那个配置文件,跟在启动命令，第三个参数
+eg:--spring.profiles.active=dev
 
 ## start 启动应用
 
