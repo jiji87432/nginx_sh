@@ -1,6 +1,7 @@
 #!/bin/bash
 OPERATE=$1
 APP_NAME=$2
+SPRING_PROFILE=$3
 SYSTEM=`uname`
 RUNNING="false";
 
@@ -38,7 +39,7 @@ function start() {
 		echo "App already running!"
 	else
 		echo "start..."
-		`nohup java -jar ${filePah} --name=${APP_NAME} > /dev/null 2>&1 &`
+		`nohup java -jar ${filePah} --spring.profiles.active=${SPRING_PROFILE} --name=${APP_NAME} > /dev/null 2>&1 &`
 		check
 		echo "Start success!"
 	fi
