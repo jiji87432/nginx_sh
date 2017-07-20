@@ -21,6 +21,7 @@ ipvsadm -at 192.168.20.111:80 -r 192.168.20.102 -g
     systemctl enable keepalived.service  设置开机自动启动
     systemctl disable keepalived.service 取消开机自动启动
     systemctl start keepalived.service 启动
+    systemctl restart keepalived.service 重新启动
     systemctl stop keepalived.service停止
 （3）查看启动状态
     systemctl status keepalived.service
