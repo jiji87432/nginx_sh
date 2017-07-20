@@ -4,6 +4,7 @@ http://blog.csdn.net/yinwenjie/article/details/47211551
 http://www.linuxidc.com/Linux/2015-07/120179.htm
 http://blog.csdn.net/nimasike/article/details/51867046
 http://os.51cto.com/art/201103/249045.htm
+http://blog.csdn.net/hotdust/article/details/53812953
 
 1.配置回环地址
 ifconfig lo:0 192.168.20.111 broadcast 192.168.20.111 netmask 255.255.255.0 up
